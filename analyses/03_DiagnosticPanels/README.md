@@ -32,8 +32,8 @@ You will also require PhantomJS installed on your system.
 Clone the repository and run the R script located in `analyses/03_DiagnosticPanels/`. 
 
 ```bash
-git clone https://github.com/halbritter-lab/kidney-genetics
-cd kidney-genetics/analyses/03_DiagnosticPanels/
+git clone https://github.com/kidney-genetics-org/kidney-genetics-v1
+cd kidney-genetics-v1/analyses/03_DiagnosticPanels/
 Rscript 03_DiagnosticPanels.R
 ```
 

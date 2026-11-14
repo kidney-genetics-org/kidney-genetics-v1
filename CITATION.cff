@@ -4,8 +4,8 @@ message: If you use Kidney-Genetics in your research, please cite this repositor
 type: software
 title: 'Kidney-Genetics: A reproducible and curated database of kidney-related genes'
 abstract: Kidney-Genetics compiles a curated database of kidney-related genes from PanelApp, literature, clinical diagnostic panels, Human Phenotype Ontology annotations, and PubTator. R analysis scripts merge and annotate these sources, and bookdown documentation presents the resulting gene tables.
-url: https://halbritter-lab.github.io/kidney-genetics-v1/
-repository-code: https://github.com/halbritter-lab/kidney-genetics-v1
+url: https://kidney-genetics-org.github.io/kidney-genetics-v1/
+repository-code: https://github.com/kidney-genetics-org/kidney-genetics-v1
 license: MIT
 keywords:
   - kidney disease

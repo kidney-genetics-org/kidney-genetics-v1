@@ -10,8 +10,8 @@ link-citations: yes
 colorlinks: yes
 description: "This documentation is intended to describe the Kidney-Genetics project"
 graphics: yes
-github-repo: halbritter-lab/kidney-genetics
-url: https://halbritter-lab.github.io/kidney-genetics-v1/
+github-repo: kidney-genetics-org/kidney-genetics-v1
+url: https://kidney-genetics-org.github.io/kidney-genetics-v1/
 ---
 
 <!-- here we load required libraries -->
@@ -168,7 +168,7 @@ genes_at_least_one_diagnostic_panel <- filtered_merge %>%
 
 ---------------------------------------
 
-This documentation is intended to describe the [Kidney-Genetics](https://github.com/halbritter-lab/kidney-genetics) project.
+This documentation is intended to describe the [Kidney-Genetics](https://github.com/kidney-genetics-org/kidney-genetics-v1) project.
 
 <!-- here we place the logo -->
 ```{r, out.width='25%', fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}

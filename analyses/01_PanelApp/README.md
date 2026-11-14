@@ -27,8 +27,8 @@ This repository contains an R script that retrieves and processes genetic panel 
 Clone the repository and run the R script located in `analyses/01_PanelApp/`. 
 
 ```bash
-git clone https://github.com/halbritter-lab/kidney-genetics
-cd kidney-genetics/analyses/01_PanelApp/
+git clone https://github.com/kidney-genetics-org/kidney-genetics-v1
+cd kidney-genetics-v1/analyses/01_PanelApp/
 Rscript 01_PanelApp.R
 ```
 

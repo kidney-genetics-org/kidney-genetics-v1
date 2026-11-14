@@ -16,8 +16,8 @@ Make sure you have the following libraries installed:
 Clone the repository and run the R script located in `analyses/`. 
 
 ```bash
-git clone https://github.com/halbritter-lab/kidney-genetics
-cd kidney-genetics/
+git clone https://github.com/kidney-genetics-org/kidney-genetics-v1
+cd kidney-genetics-v1/
 Rscript MergeAnalysesSources.R
 ```
 

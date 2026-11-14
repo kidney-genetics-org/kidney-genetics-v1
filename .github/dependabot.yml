@@ -1,0 +1,25 @@
+# Dependabot: kidney-genetics-org standard (weekly Mon 09:00 Europe/Berlin, grouped minor/patch)
+# R packages are not supported by Dependabot; only GitHub Actions are tracked.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "Europe/Berlin"
+    cooldown:
+      default-days: 3
+    open-pull-requests-limit: 5
+    labels:
+      - "dependencies"
+      - "github-actions"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+    groups:
+      actions-updates:
+        update-types:
+          - "minor"
+          - "patch"

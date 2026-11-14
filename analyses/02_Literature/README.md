@@ -22,8 +22,8 @@ For this analysis you need to have access (VPN) to to respective journals to dow
 Clone the repository and run the R script located in `analyses/02_Literature/`. 
 
 ```bash
-git clone https://github.com/halbritter-lab/kidney-genetics
-cd kidney-genetics/analyses/02_Literature/
+git clone https://github.com/kidney-genetics-org/kidney-genetics-v1
+cd kidney-genetics-v1/analyses/02_Literature/
 Rscript 02_Literature.R
 ```
 

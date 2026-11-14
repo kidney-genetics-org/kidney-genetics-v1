@@ -18,17 +18,20 @@ on:
       - 'documentation/**'
       - '.github/workflows/**'
       - 'analysis/**/results/**'
+  workflow_dispatch:
 
 env:
     DRAWIO_DISABLE_UPDATE: true
     DISPLAY: :99.0
     CONFIG_FILE: documentation/config.yml
     R_ENVIRONMENT: github
+    # phantomjs (webshot) aborts with the OpenSSL 3 config on Ubuntu 22.04+
+    OPENSSL_CONF: /dev/null
 
 jobs:
     bookdown:
         name: Render-Book
-        runs-on: ubuntu-20.04
+        runs-on: ubuntu-24.04
         defaults:
             run:
               working-directory: ./documentation
@@ -69,8 +72,12 @@ jobs:
                 path: ./documentation/build
                 if-no-files-found: error
     checkout-and-deploy:
-        runs-on: ubuntu-20.04
+        # Never publish from pull requests; deploy on push to main or manual run.
+        if: github.event_name != 'pull_request'
+        runs-on: ubuntu-24.04
         needs: bookdown
+        permissions:
+            contents: write
         steps:
             - name: Checkout
               uses: actions/checkout@v4
