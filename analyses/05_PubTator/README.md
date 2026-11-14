@@ -19,8 +19,8 @@ Please install these packages in R before running the script.
 Clone the repository and run the R script located in `analyses/05_PubTator/`. 
 
 ```bash
-git clone https://github.com/halbritter-lab/kidney-genetics
-cd kidney-genetics/analyses/05_PubTator/
+git clone https://github.com/kidney-genetics-org/kidney-genetics-v1
+cd kidney-genetics-v1/analyses/05_PubTator/
 Rscript 05_PubTator.R
 ```
 

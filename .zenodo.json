@@ -34,7 +34,7 @@
   "access_right": "open",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/halbritter-lab/kidney-genetics-v1",
+      "identifier": "https://github.com/kidney-genetics-org/kidney-genetics-v1",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

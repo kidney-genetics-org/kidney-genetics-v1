@@ -19,8 +19,8 @@ Please install these packages in R using the install.packages() function.
 Clone the repository and run the R script located in `analyses/04_HPO-detection/`. 
 
 ```bash
-git clone https://github.com/halbritter-lab/kidney-genetics
-cd kidney-genetics/analyses/04_HPO-detection/
+git clone https://github.com/kidney-genetics-org/kidney-genetics-v1
+cd kidney-genetics-v1/analyses/04_HPO-detection/
 Rscript 04_HPO-detection.R
 ```
 
