@@ -1,7 +1,10 @@
-# First release and citation metadata
+# Releases and citation metadata
 
-The repository has no release tag or Zenodo DOI yet. `CITATION.cff` and
-`.zenodo.json` describe the project without claiming a released version or date.
+`v1.0.0` (2026-11-15) is an archival release of the final state of this R
+pipeline, which is superseded by
+[kidney-genetics-db](https://github.com/kidney-genetics-org/kidney-genetics-db).
+It is used by [nc-scorer](https://github.com/kidney-genetics-org/nc-scorer) and
+pins no manuscript snapshot. The steps below apply to any later release.
 
 ## Prepare the first release
 
