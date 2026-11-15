@@ -1,5 +1,7 @@
 {
   "title": "Kidney-Genetics: A reproducible and curated database of kidney-related genes",
+  "version": "1.0.0",
+  "publication_date": "2026-11-15",
   "description": "Kidney-Genetics compiles a curated database of kidney-related genes from PanelApp, literature, clinical diagnostic panels, Human Phenotype Ontology annotations, and PubTator. R analysis scripts merge and annotate these sources, and bookdown documentation presents the resulting gene tables.",
   "upload_type": "software",
   "creators": [

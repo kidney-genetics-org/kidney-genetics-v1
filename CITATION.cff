@@ -1,8 +1,9 @@
-# Add version and date-released when the first release is selected; see RELEASING.md.
 cff-version: 1.2.0
 message: If you use Kidney-Genetics in your research, please cite this repository and the exact revision or archived release used.
 type: software
 title: 'Kidney-Genetics: A reproducible and curated database of kidney-related genes'
+version: 1.0.0
+date-released: "2026-11-15"
 abstract: Kidney-Genetics compiles a curated database of kidney-related genes from PanelApp, literature, clinical diagnostic panels, Human Phenotype Ontology annotations, and PubTator. R analysis scripts merge and annotate these sources, and bookdown documentation presents the resulting gene tables.
 url: https://kidney-genetics-org.github.io/kidney-genetics-v1/
 repository-code: https://github.com/kidney-genetics-org/kidney-genetics-v1
